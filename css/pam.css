@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:wght@900&family=Roboto:wght@500&family=Russo+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+html, body{
+	height: 100%;
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 15px; /* ширина для вертикального скролла */
+    background-color: #343434;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #e46700;
+    border-radius: 5em;
+}
+
+.wrapper{
+	width: 100%;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+    flex-direction: column;
+    border: none;
+    padding-bottom: 50px;
+    background: #ec7530;
+    background-size: cover;
+    position: relative;
+}
+.wrapper>div{
+    width: 100%;
+}
+.header-inner{
+    width: 100%;
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+    padding: 10px 40px 10px 140px;
+    background-color:rgb(60, 60, 60);
+}
+.header-inner>div{
+    height: 100%;
+    margin: 0 10px;
+}
+.logotype{
+    width: 6%;
+    /* box-shadow: #4e4d4d 0 0 10px; */
+    background: url('../../img/kaif.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+.name{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+    font-size: 200%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.country-container{
+    width: 100%;
+    height: 800px;
+    background: #f59056;
+    padding: 0 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.country-container>div{
+    
+}
+.country-name{
+    width: 100%;
+    height: 10%;
+    background: #696969;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 150%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.c_top, .c_bot{
+   display: flex;
+   width: 100%;
+   height: 50%;
+   font-size: 20px
+   ;
+}
+.cont{
+   width: 20%;
+   height: 100%;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 0.2s;
+}
+.cont:hover{
+   text-decoration: underline;
+   text-decoration-color:#ec7530;
+   font-size: 18px;
+   background: #4e4d4d;
+
+}
+.inform{
+    width: 100%;
+    height: 90%;
+    background: #343434;
+    z-index: 2;
+    
+}
+.bottom-inner{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    bottom: -50px;
+    text-align: center;
+    border: none;
+    color: #a0a0a0;
+    background-color: #313030;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 110%;
+}
+.pas{
+   width: 70px;
+   position: absolute;
+   left: 252px;
+   top: 250px;
+   
+}
+.doc{
+   margin-left: 180px;
+   color: white;
+   margin-top: 30px;
+   font-size: 16px;
+   font-weight: bolder;
+   margin-bottom: 60px;
+}
+ul{
+   font-weight: bolder;
+   font-size: 22px;
+   color: white;
+}
+ul li{
+   font-weight: 100;
+   margin-top: 10px;
+   font-size: 18px;
+}
+.bil{
+   margin-top:10px;
+   margin-left: 180px;
+   color: white;
+   margin-top: 30px;
+   font-size: 16px;
+   font-weight: bolder;
+   text-decoration: none;
+   margin-bottom: 80px;
+}
+.sm{
+   width: 100px;
+   position: absolute;
+   left:238px;
+   top: 720px;
+}
+.bil li{
+   list-style-type: none;   
+}
+.time{
+   width: 90px;
+   position: absolute;
+   left: 241px;
+   top: 430px;
+
+}
+.glob{
+   width: 170px;
+   position: absolute;
+   left: 210px;
+    top: 558px;
+}
+.bii{
+   margin-bottom: 80px;
+}
+span{
+   font-size: 20px;
+}
+.end{
+
+   font-size: 40px;
+   position: absolute;
+   top:840px;
+   left: 600px;
+   color: white;
+}
+.inf{
+   width: 1121px;
+    height: 720px;
+    background: rgb(59, 59, 59);
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    padding: 30px;
+    padding-top: 0px;
+}
+.german{
+   z-index: 1;
+}
+.cntrimg{
+   width: 600px;
+   height: 300px;
+   margin-top: 20px;
+   margin-left: 15%;
+   margin-bottom: 5px;
+}
+.i li{
+   list-style-type: none;
+
+}
+.informat{
+   color: white;
+}
+h2{
+   color: white;
+   margin-bottom: 15px;
+}
+.bottom-inner span {
+    opacity: 0.5;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url('../../img/kaif.png');
+    background-repeat: no-repeat;
+    border: none;
+    margin-bottom: 5px;
+}
+.company{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 65%;
+}
+
+.nameOfCompany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 180%;
+}
+
+
+
+
+.bottom-inner-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.members{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
