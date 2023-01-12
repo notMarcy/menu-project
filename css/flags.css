@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:wght@900&family=Roboto:wght@500&family=Russo+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+}
+html, body{
+	height: 100%;
+}
+
+.wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    /* padding-bottom: 250px; */
+}
+
+.header-inner{
+    width: 100%;
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+	justify-content: center;
+    flex-direction: row;
+	align-items: center;
+    padding: 10px 0px;
+    background-color:rgb(60, 60, 60);
+}
+.header-inner>div{
+    height: 100%;
+    margin: 0 10px;
+}
+.logotype{
+    width: 5.5%;
+    background: url('../img/kaif.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 2000px;
+    background: rgb(241, 130, 38);
+    padding: 0 150px;
+}
+.tour{
+    height: 31%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 2vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+    text-shadow: 0 2px 2px black,  0 -2px 2px black,  -2px 0 2px black,  2px 0 2px black;
+}
+.tour2{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+.photo-name3, .photo-name1, .photo-name2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    background: rgba(0,0,0,0.4);
+} 
+.photo1,.photo2,.photo3{
+    width: 40%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.info1, .info2, .info3{
+    background: rgba(0,0,0, 0.3);
+
+    width: 100%;
+    height: 70%;
+    border-top: 4px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    text-align: justify;
+    padding-left: 2.5%;
+    font-size: 2.5vmin;
+}
+.facts1, .facts2,.facts3{
+    
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: justify;
+    border-right: 3px solid black;
+
+}
+.description1, .description2, .description3{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    font-size: 3vmin;
+}
+.tourName1, .tourName2, .tourName3{
+    width: 60%;
+    height: 100%;
+    font-size: 5vmin;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.country{
+    width: 100%;
+    height: 5%;
+    font-size: 6vmin;
+    background: #232323;
+    color: #fff;
+    display: flex;
+    justify-content:  flex-start;
+    align-items: center;
+    text-align: left;
+    padding-left: 12.5%;
+}
+.main-b{
+    width: 100%;
+    height: 100%;
+    display: flex;
+	justify-content:  flex-start;
+	align-items:center;
+    flex-direction: column;
+    background: #464545;
+}
+
+.exit{
+    width: 100%;
+    height: 6%;
+    cursor: pointer;
+    background: #232323;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
+}
+.exit>a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vmin;
+}
+
+.bottom-inner{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    border: none;
+    color: #a0a0a0;
+    background-color: #313030;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: 'Russo One', sans-serif;
+}
+.bottom-inner span {
+    opacity: 0.5;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url('../img/kaif.png');
+    background-repeat: no-repeat;
+    border: none;
+    margin-bottom: 5px;;
+}
+.company{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    margin-top: 5px;
+}
+.bottom-inner-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.members{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
