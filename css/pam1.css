@@ -219,12 +219,50 @@ span{
     top: 180px;
     padding: 30px;
     padding-top: 0px;
+    transition: 0.3s;
 }
+.cont{
+   z-index: 0;
+}
+.cntrimg1{
+      width: 700px;
+      height: 280px;
+      margin-top: 20px;
+      margin-left: 15%;
+      margin-bottom: 5px;
+   }
 .german{
    z-index: 1;
 }
+.greс{
+   z-index: 0;
+}
+.gryz{
+   z-index: 0;
+}
+.egypt{
+   z-index: 0;
+}
+.ispan{
+   z-index: 0;
+}
+.norveg{
+   z-index: 0;
+}
+.tyrk{
+   z-index: 0;
+}
+.shvec{
+   z-index: 0;
+}
+.shrilank{
+   z-index: 0;
+}
+.japon{
+   z-index: 0;
+}
 .cntrimg{
-   width: 600px;
+   width: 700px;
    height: 300px;
    margin-top: 20px;
    margin-left: 15%;
@@ -239,7 +277,7 @@ span{
 }
 h2{
    color: white;
-   margin-bottom: 15px;
+   margin-bottom: 5px;
 }
 .bottom-inner span {
     opacity: 0.5;
